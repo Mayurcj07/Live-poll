@@ -1,0 +1,49 @@
+.student-view {
+  width: 100%;
+  max-width: 800px;
+}
+
+.student-header {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.student-header h2 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.student-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.student-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.connection-status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.connection-status.connected {
+  background: #4CAF50;
+  color: white;
+}
+
+.connection-status.disconnected {
+  background: #ff9800;
+  color: white;
+}
