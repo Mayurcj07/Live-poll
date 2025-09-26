@@ -1,0 +1,70 @@
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.app-header {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.app-header h1 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.connection-status {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.test-btn, .reconnect-btn {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.test-btn:hover, .reconnect-btn:hover {
+  background: #f0f0f0;
+}
+
+.debug-info {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.debug-info summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.debug-info pre {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 0.8rem;
+}

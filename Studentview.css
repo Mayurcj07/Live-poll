@@ -1,0 +1,74 @@
+.student-view {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.student-info {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.welcome-message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.welcome-message h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.status-badge {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.status-badge.connected {
+  background: #4CAF50;
+  color: white;
+}
+
+.poll-status {
+  text-align: center;
+}
+
+.status-active {
+  color: #ff9800;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.status-voted {
+  color: #4CAF50;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.reconnect-btn-small {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.connection-warning {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,54 @@
+.persona-selection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.selection-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.selection-container h2 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.role-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.role-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.student-btn {
+  background: #4CAF50;
+  color: white;
+}
+
+.teacher-btn {
+  background: #2196F3;
+  color: white;
+}
+
+.role-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.role-btn:active {
+  transform: translateY(0);
+}

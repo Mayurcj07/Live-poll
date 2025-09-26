@@ -1,0 +1,116 @@
+.name-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  width: 100%;
+}
+
+.name-input-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.name-input-header h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 2rem;
+}
+
+.name-input-header p {
+  margin: 0 0 30px 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.name-input-form {
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.join-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-weight: bold;
+}
+
+.join-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.join-button:active {
+  transform: translateY(0);
+}
+
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border-left: 4px solid #c62828;
+}
+
+.name-input-tips {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.name-input-tips p {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.name-input-tips ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #666;
+}
+
+.name-input-tips li {
+  margin-bottom: 5px;
+}
